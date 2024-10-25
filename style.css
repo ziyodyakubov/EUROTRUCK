@@ -450,9 +450,10 @@ body{
 /* FOOTER STARTED */
 
 footer{
-    width:1440px ;
+    
     background-color: rgb(26, 26, 26);
 }
+
 
 .text-1{
     display: flex;
