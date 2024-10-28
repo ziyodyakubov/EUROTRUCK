@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: "Inter";
     scroll-behavior: smooth;
+    overflow-x: hidden !important;
 }
 
 
@@ -489,6 +490,11 @@ footer{
 /* FOOTER ENDED */
 
 @media only screen and (max-width:600px){
+
+    footer, #section-6{
+        display: none !important;
+    }
+
     .container{
         max-width: 350px !important;
         margin: 0 auto !important;
