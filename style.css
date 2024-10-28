@@ -487,3 +487,205 @@ footer{
 }
 
 /* FOOTER ENDED */
+
+@media only screen and (max-width:600px){
+    .container{
+        max-width: 350px !important;
+        margin: 0 auto !important;
+    }
+
+    .container-2{
+        max-width: 350px !important;
+        margin: 0 auto !important;
+    }
+
+    .old-div, .flex-2{
+        display: none;
+    }
+
+    .main-lg{
+        width: 150px;
+    }
+
+    .zakaz-btn{
+        font-weight: 600;
+        font-size: 12px;
+        color:rgb(255, 255, 255);
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 15px;
+        padding-right: 15px;
+        background-color: rgb(71, 98, 255);
+        border-radius: 5px;
+        border:none;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+    .text{
+
+        h1{
+            font-size: 30px;
+            width: 340px;
+            line-height: 36px;
+            color:rgb(51, 51, 51);
+        }
+    
+        p{
+            font-size: 12px;
+            color:rgba(51, 51, 51, 0.8);
+            margin-top: 16px;
+            margin-bottom: 32px;
+        }
+    
+        button{
+            padding-left: 27px;
+            padding-right: 27px;
+            padding-top: 6px;
+            padding-bottom: 6px;
+            border-radius:5px;
+            background-color: rgb(71, 98, 255);
+            border:none;
+            color:#fff;
+            cursor: pointer;
+        }
+    }
+
+    #section-1{
+        padding-top: 47px;
+    }
+
+
+
+    .trucks{
+        display: none;
+    }
+
+    .love-text{
+        font-size: 25px;
+        font-weight: 700;
+        color: rgb(51, 51, 51);
+        text-align: center;
+        margin-bottom: 18px;
+        margin-top: 80px;
+    }
+
+    .lorem{
+        display: none;
+    }
+
+    .text-2{
+        width: 350px !important;
+    
+        h3{
+            font-weight: 700 !important;
+            font-size: 14px;
+            color: rgb(51, 51, 51);
+            margin-bottom: 15px;
+        }
+    
+        p{
+            color: rgba(51, 51, 51, 0.8);
+            font-size: 10px;
+        }
+        
+    }
+
+    .card{
+        display: flex;
+        width: 350px !important;
+        background-color: rgb(244, 246, 250);
+        border-radius: 9px;
+        padding-top: 25px;
+        padding-left: 28px;
+        height: 287px;
+    }
+
+    .first, .second{
+        display: flex;
+        flex-wrap: wrap;
+        gap:30px;
+    }
+
+    .text-4{
+        width: 576px;
+    
+        h2{
+            font-size: 18px;
+            font-weight: 700;
+            color: rgb(51, 51, 51);
+            margin-bottom: 16px;
+        }
+    
+        p{
+            width: 350px;
+            font-style: 18px;
+            font-weight: 400;
+            color: rgba(51, 51, 51, 0.8);
+            font-size: 10px;
+        }   
+    }
+
+    .img-1, .img-2 , .img-3, .img-4, .img-5{
+        width: 90px !important;
+    }
+
+    .img-3{
+        position: relative;
+        left: 30px;
+    }
+
+    #section-4{
+        padding-top: 30px;
+    }
+
+    .img{
+        
+        position: relative;
+         right:100px;
+         top:20px;
+    }
+
+    .father{
+        flex-direction: column;
+    }
+
+    .text-3{
+        width: 540px;
+    
+    
+        h2{
+            font-size: 28px;
+            font-weight: 700;
+            color: rgb(51, 51, 51);
+            margin-bottom: 41px !important;
+        }
+    
+        p{
+            font-size: 10px;
+            color: rgba(51, 51, 51, 0.8);
+            margin-bottom: 15px;
+        }
+    }
+    
+    .flex-4{
+        flex-wrap: wrap;
+    }
+
+    .location{
+        margin-top: 25px;
+        filter: grayscale(50%);
+        width: 350px;
+    }
+
+    .fotochki{
+
+        h1{
+            font-size: 25px !important;
+        }
+
+        img{
+            width: 350px;
+        }
+    }
+}  
